@@ -11,13 +11,17 @@ body{
 }
 #calc{
     background-color: rgb(49, 47, 47);
-    margin-top: 100px;
+    margin-top: 70px;
     padding: 5px;
     width: 340px;
 }
 #operations{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     text-align: right;
     margin-top: 8px;
+    height: 5rem;
 }
 #previousOperation{
     font-size: 1.4em;
